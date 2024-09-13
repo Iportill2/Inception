@@ -47,13 +47,13 @@ volumes:
     driver: local
     driver_opts:
       type: volume
-      device: /home/imontero/data/wordpress
+      device: /home/iportill/data/wordpress
       o: bind
   DB_Volume:
     driver: local
     driver_opts:
       type: volume
-      device: /home/imontero/data/mariadb
+      device: /home/iportill/data/mariadb
       o: bind
 networks:
   DockerNet:
